@@ -1,0 +1,45 @@
+[
+    {
+        "key_word": "python",
+        "rating": 3.9,
+        "views": "9.9",
+        "time": "7 hr 30 mins",
+        "price": "20000",
+        "desc_head": "What is Python?",
+        "desc": "Python is a dynamically typed, General Purpose Programming Language that supports an object-oriented programming approach as well as a functional programming approach. Python is also an interpreted and high-level programming language. It was created by Guido Van Rossum in 1989.",
+        "desc_head2": "Features of Python",
+        "desc2": "Python is simple and easy to understand. It is Interpreted and platform-independent which makes debugging very easy. Python is an open-source programming language. Python provides very big library support. Some of the popular libraries include NumPy, Tensorflow, Selenium, OpenCV, etc. It is possible to integrate other programming languages within python.",
+        "desc_head3": "What is Python used for",
+        "desc3": "Python is used in Data Visualization to create plots and graphical representations. Python helps in Data Analytics to analyze and understand raw data for insights and trends. It is used in AI and Machine Learning to simulate human behavior and to learn from past data without hard coding. It is used to create web applications. It can be used to handle databases. It is used in business and accounting to perform complex mathematical operations along with quantitative and qualitative analysis.",
+        "img": "https://img.freepik.com/premium-vector/programmer-working-concept-with-people-scene-vector-illustration_198565-2479.jpg",
+        "course_name": "2023 Complete Python Bootcamp From Zero to Hero in Python",
+        "category": "Designing",
+
+        "event_time": "06:00 PM to 08:00 PM",
+        "event_days": "17 / Aprel to 20 / Aprel",
+
+        "isNew": true
+    },
+    {
+        "key_word": "web developer",
+        "rating": 4.8,
+        "views": "17.9",
+        "time": "10 hr 23 mins",
+        "price": "20000",
+        "desc_head": "Intro",
+        "desc": "In this you'll get an overview of everything you're going to learn to become a full-stack web developer. Learn front end to backend web development with HTML, CSS, Bootstrap 4, es6, Node, Express, Mongo & React.",
+        "desc_head2": "What is web development?",
+        "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium porro magni doloribus non vitae, voluptatum dignissimos hic dolor voluptates, numquam, eaque at molestiae architecto. Tempora nisi animi excepturi dolorem dolores.",
+        "desc_head3": "Description",
+        "desc3": "Welcome to the Ultimate Web Developer Bootcamp. This is your one-stop-shop to learn front-end AND back-end development. We'll take you from absolute beginner to competent full-stack web developer in a matter of weeks.",
+        "img": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?size=626&ext=jpg&ga=GA1.2.1777897027.1675625974&semt=sph",
+        "course_name": "The Web Developer Bootcamp 2023",
+        "category": "Database Management",
+
+        "event_time": "06:00 PM to 08:00 PM",
+        "event_days": "17 / Aprel to 20 / Aprel",
+
+        "isNew": true
+       
+    }
+]

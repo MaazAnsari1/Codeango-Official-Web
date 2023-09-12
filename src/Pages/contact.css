@@ -1,0 +1,209 @@
+.contact {
+  width: 100vw;
+  background-image: linear-gradient(to left, #fff, #047aed);
+  border-top: 1px solid var(--primary-color);
+  margin-bottom: 50px;
+}
+.contact_wrapper {
+  width: 80vw;
+  margin: 0px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  height: 560px;
+}
+.contact-form {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 30px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  height: fit-content;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 5px 5px 8px rgba(0, 31, 109, 0.726);
+}
+.contact-head {
+  text-align: center;
+}
+.contact-form .customer_query input,
+.contact-form .customer_email input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #444;
+  background-color: transparent;
+  margin-top: 20px;
+  border-radius: 4px;
+  outline: none;
+  width: 280px;
+  box-shadow: 2px 2px 4px #444;
+}
+.contact-form .customer_query input:hover,
+.contact-form .customer_query input:focus,
+.contact-form .customer_email input:hover,
+.contact-form .customer_email input:focus {
+  border-bottom: 2px solid rgba(0, 31, 109, 0.726);
+  box-shadow: 5px 5px 8px rgba(0, 31, 109, 0.726);
+}
+.contact_btn {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #444;
+}
+.contact_btn:hover {
+  scale: 0.98;
+  box-shadow: 5px 5px 8px rgba(0, 31, 109, 0.726);
+}
+.query_submit_modal {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  padding: 20px 10px;
+  display: none;
+}
+.modal_active {
+  display: block;
+}
+.query_submit_modal p {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.query_submit_modal button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.query_submit_modal button:hover {
+  background-color: var(--hover-effect);
+}
+.contact_details {
+  width: 60vw;
+  margin: 0px auto;
+  padding: 30px;
+  height: 300px;
+  gap: 20px;
+  display: grid;
+  grid-template-areas: "phone email" "fax address";
+}
+.company_phone {
+  grid-area: phone;
+  border-radius: 10px 0px 0px 0px;
+}
+.company_phone a {
+  color: #000;
+}
+.company_phone:hover {
+  transform: translateY(-15px);
+}
+.company_email {
+  grid-area: email;
+  border-radius: 0px 10px 0px 0px;
+}
+.company_email a {
+  color: #000;
+}
+.company_email:hover {
+  transform: translateY(-15px);
+}
+
+.company_fax {
+  grid-area: fax;
+  border-radius: 0px 0px 0px 10px;
+}
+.company_fax a {
+  color: #000;
+}
+.company_fax:hover {
+  transform: translateY(-15px);
+}
+.company_address {
+  grid-area: address;
+  border-radius: 0px 0px 10px 10px;
+}
+.company_address a {
+  color: #000;
+}
+.company_address:hover {
+  transform: translateY(-15px);
+}
+
+.company_phone,
+.company_email,
+.company_fax,
+.company_address {
+  background-color: #fff;
+  box-shadow: 5px 5px 8px rgba(0, 31, 109, 0.726);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 26px;
+  cursor: pointer;
+  /* border-radius: 10px; */
+
+  text-align: center;
+}
+.company_phone h4,
+.company_email h4,
+.company_fax h4,
+.company_address h4 {
+  margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 786px) {
+  .contact {
+    background-image: linear-gradient(to bottom, #fff, #9547d8);
+    border-top: 1px solid var(--primary-color);
+    padding-bottom: 100px;
+  }
+  .contact_wrapper {
+    width: 100vw;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 40px 20px;
+    justify-content: center;
+  }
+  .contact-form {
+    order: 2;
+    margin-top: 30px;
+  }
+  .contact_img img {
+    width: 80vw;
+  }
+
+  .contact_details {
+    width: 100vw;
+    margin: 20px auto;
+    padding: 20px;
+    grid-template-areas: "phone" "email" "fax" "address";
+  }
+}
+@media only screen and (max-width: 540px) {
+  .query_submit_modal {
+    top: 50%;
+    left: 13%;
+    width: 280px;
+    height: 220px;
+    padding: 20px 10px;
+  }
+}
